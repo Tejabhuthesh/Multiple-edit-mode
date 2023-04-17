@@ -1,0 +1,90 @@
+{
+    "Students" : [{
+        
+        "Employeid":"10",
+        "Name": "Teja",
+        "DateofBirth":"01-04-2001",
+        "Age":"26",
+        "Gender":"Male",
+        "Role": " Fiori role",
+        "DateofJoining":"07-08-2022",
+        "Position":"intern",
+        "CTC": "12000",
+        "Number": "9550840453",
+        "landline":"6281245810",
+        "EmailID":"tejabhutesh@gmail.com",
+        "Address":"NKP,MADAKASIRA,INDIA"
+
+        
+    },
+    {
+        
+        "Employeid":"456",
+        "Name": "Ramya",
+        "DateofBirth":"01-04-2001",
+        "Age":"25",
+        "Gender":"Female",
+        "Role": " Fiori role",
+        "DateofJoining":"07-08-2022",
+        "Position":"intern",
+        "CTC": "18000",
+        "Number": "9550840453",
+        "landline":"6281245810",
+        "EmailID":"tejabhutesh@gmail.com",
+        "Address":"NKP,MADAKASIRA,INDIA"
+
+
+    },
+    {
+        
+        "Employeid":"345",
+        "Name": "Sri",
+        "DateofBirth":"01-04-2001",
+        "Age":"24",
+        "Gender":"other",
+        "Role": " Fiori role",
+        "DateofJoining":"07-08-2022",
+        "Position":"intern",
+        "CTC": "10000",
+        "Number": "9550840453",
+        "landline":"6281245810",
+        "EmailID":"tejabhutesh@gmail.com",
+        "Address":"NKP,MADAKASIRA,INDIA"
+
+
+    },
+    {
+        
+        "Employeid":"999",
+        "Name": "Swathi",
+        "DateofBirth":"01-04-2001",
+        "Age":"23",
+        "Gender":"Female",
+        "Role": " Fiori role",
+        "DateofJoining":"07-08-2022",
+        "Position":"intern",
+        "CTC": "17000",
+        "Number": "9550840453",
+        "landline":"6281245810",
+        "EmailID":"tejabhutesh@gmail.com",
+        "Address":"NKP,MADAKASIRA,INDIA"
+
+
+    },
+    {
+        
+        "Employeid":"555",
+        "Name": "Bhuthesh",
+        "DateofBirth":"01-04-2001",
+        "Age":"22",
+        "Gender":"Male",
+        "Role": " Fiori role",
+        "DateofJoining":"07-08-2022",
+        "Position":"intern",
+        "CTC": "13000",
+        "Number": "9550840453",
+        "landline":"6281245810",
+        "EmailID":"tejabhutesh@gmail.com",
+        "Address":"NKP,MADAKASIRA,INDIA"
+    }]
+}

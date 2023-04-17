@@ -1,0 +1,73 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+    <Dialog id="idDialog">
+    
+      <!-- <f:SimpleForm editable="false" layout="ResponsiveGridLayout">
+            <f:content>
+               
+                <Label text="Name" />
+                  <Text text="{Data3>/Name}" />
+                   <Label text="Zemprole" />
+                <Input value="{Data3>/Zemprole}" />
+                  <Label text="Zgender" />
+                <Input value="{Data3>/Zgender}" />
+                  <Label text="Znumber" />
+                <Input value="{Data3>/Znumber}" type="Number"/>
+                  <Label text="Zcity" />
+                <Input value="{Data3>/Zcity}" />
+                
+            </f:content>
+        </f:SimpleForm> -->
+       
+                 <Table id="id4" width="80rem"
+                 items="{
+			path: 'Data3>/'
+                 
+         
+         
+            }">
+            <!-- , sorter: {
+				path: 'Name',
+                group: false
+			}  -->
+                    <columns >
+                        <Column width="auto">
+                            <Text text="Name" />
+                        </Column>
+
+                        <Column >
+                            <Text text="Zemprole" />
+                        </Column>
+
+                        <Column >
+                            <Text text="Zgender" />
+                        </Column>
+
+                        <Column >
+                            <Text text="Zcity" />
+                        </Column>
+
+                        <Column >
+                            <Text text="Znumber" />
+                        </Column>
+
+                    </columns>
+                    <items>
+                        <ColumnListItem type="Active"  >
+                            <cells>
+                                <Text text="{Data3>Name}" />
+                                <Input value="{Data3>Zemprole}" />
+                                <Input value="{Data3>Zgender}" />
+                                <Input value="{Data3>Zcity}" />
+                                <Input value="{Data3>Znumber}" />
+                            
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
+                <beginButton>  <Button id="ok1" type="Transparent" text="Save" press="SavePress" /></beginButton>
+        <endButton>
+            <Button  id="closeBtne" type="Transparent" text="Cancel"  press = "CancelPress" />
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>
+

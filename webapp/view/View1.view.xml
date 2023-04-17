@@ -1,0 +1,111 @@
+
+<mvc:View controllerName="idmulti.zmultiedit.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}" >
+    
+        <headerContent>
+        <Button  id="editmode" icon="sap-icon://edit" text="Edit" press="onEdit" type="Transparent" />
+           <!-- <Button  press="rightarrow" type="Transparent"  icon="sap-icon://navigation-right-arrow"/> -->
+        </headerContent>
+        <!-- <content>
+          
+                <Table width="80rem" mode="MultiSelect" id="idProductsTable"  inset="true"  headerText="EMPLOYE DETAILS" visible="true" alternateRowColors="true"
+                 items="{
+			path: 'Data2>/Students'
+                
+         
+         
+            }">
+             
+                    <columns>
+                        <Column width="auto">
+                            <Text text="Employeid" />
+                        </Column>
+
+                        <Column >
+                            <Text text="Name" />
+                        </Column>
+
+                        <Column >
+                            <Text text="Age" />
+                        </Column>
+
+                        <Column >
+                            <Text text="Gender" />
+                        </Column>
+
+                        <Column >
+                            <Text text="Position" />
+                        </Column>
+
+                    </columns>
+                    <items>
+                        <ColumnListItem type="Active" id="colss">
+                            <cells>
+                                <Text text="{Data2>Employeid}" />
+                                <Text text="{Data2>Name}" />
+                                <Text text="{Data2>Age}" />
+                                <Text text="{Data2>Gender}" />
+                                <Text text="{Data2>Position}" />
+                            
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
+           
+        </content> -->
+        <content>
+          <Table width="80rem" mode="MultiSelect" id="idProductsTable1" inset="true"  growingThreshold="7" growing="true"	selectionChange="handleSelectionChange"   headerText="EMPLOYE DETAILS" visible="true" alternateRowColors="true"
+                 items="{
+			path: 'Data1>/results'
+                 
+           , sorter: {
+				path: 'Name',
+                group: false
+			}  
+         
+            }">
+            <!-- , sorter: {
+				path: 'Name',
+                group: false
+			}  -->
+                    <columns >
+                        <Column width="auto">
+                            <Text text="Name" />
+                        </Column>
+
+                        <Column >
+                            <Text text="Zemprole" />
+                        </Column>
+
+                        <Column >
+                            <Text text="Zgender" />
+                        </Column>
+
+                        <Column >
+                            <Text text="Zcity" />
+                        </Column>
+
+                        <Column >
+                            <Text text="Znumber" />
+                        </Column>
+
+                    </columns>
+                    <items>
+                        <ColumnListItem type="Active"  >
+                            <cells>
+                                <Text text="{Data1>Name}" />
+                                <Text text="{Data1>Zemprole}" />
+                                <Text text="{Data1>Zgender}" />
+                                <Text text="{Data1>Zcity}" />
+                                <Text text="{Data1>Znumber}" />
+                            
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
+        </content>
+    </Page>
+</mvc:View>
+ 
